@@ -1,0 +1,254 @@
+/* JavaFX CSS - Leave this comment until you have at least create one rule which uses -fx-Property */
+.header{
+	-fx-background-color:#01142F;
+	-fx-min-height:1cm;
+	-fx-font-size:20px;
+	-fx-font-style:oblique ;
+	-fx-font-family:cursive;
+	-fx-font-weight:bold;
+	-fx-border-color:lightblue ;
+	-fx-border-radius:10px;
+	}
+.alertBox{
+	-fx-spacing:20px;
+}
+.img{
+	-fx-background-radius:20px;
+	-fx-border-radius:20px;
+}
+.levelchoice{
+	-fx-background-color:grey; 
+	-fx-text-fill:white ;
+}
+.hint{
+	-fx-text-alignment: center;
+	-fx-text-fill:white ;
+	-fx-padding:20px;
+	-fx-font-size:20px;
+	-fx-font-weight:bold;
+	-fx-spin-enabled:true ;
+}
+.input{
+	-fx-background-color:linear-gradient(#58595B ,#231F20 90%);
+	-fx-text-fill:white ;
+	-fx-font-weight:bold;
+	-fx-border-color:black;
+	-fx-font-size:20px;
+	
+}
+.loginbox{
+	-fx-alignment:center ;
+	-fx-spacing:20px;
+	-fx-background-image:url("Scrampic5.jpg");
+	-fx-background-repeat:no-repeat ;
+	-fx-background-size:stretch ;
+}
+.ubox{
+	-fx-spacing:30px;
+	-fx-border-color:white ;
+	-fx-pref-height:100px;
+	-fx-padding:20px;
+	-fx-background-color:#414042;
+	}
+.box{
+	-fx-alignment:center ;
+	-fx-spacing:0px;
+	-fx-background-image:url("Scrampic5.jpg");
+	-fx-background-repeat:no-repeat ;
+	-fx-background-size:stretch ;
+	
+}
+.bttn{
+	-fx-text-fill:white;
+	-fx-border-insets:30px;
+	-fx-background-color:linear-gradient(#58595B ,#231F20 90%);
+	-fx-pref-height:50px;
+	-fx-pref-width:150px;
+}
+.name{
+	-fx-font-weight:bold;
+	-fx-text-fill:white ;
+	-fx-alignment:center-right ;
+}
+.namebox{
+	-fx-padding:10px;
+	-fx-spacing:10px;
+	-fx-background-color:linear-gradient(#58595B ,#231F20 90%);
+	-fx-alignment:center ;
+	-fx-opacity:0.8;
+}
+.pword{
+	-fx-text-fill:blue ;
+	-fx-font-size:20px;
+}
+.usern{
+	-fx-text-fill:blue ;
+	-fx-font-size:20px;
+}
+.name{
+	-fx-text-fill:white ;
+	-fx-font-weight:bold;	
+}
+.plabel{
+	-fx-font-weight:bold;
+	-fx-text-fill:white ;
+}
+.passwordbox{
+	-fx-padding:10px;
+	-fx-spacing:10px;
+	-fx-background-color:linear-gradient(#58595B ,#231F20 90%);
+	-fx-alignment:center ;
+	-fx-opacity:0.8;
+}
+.userdash{
+	-fx-pref-height:30px;
+	-fx-background-color:linear-gradient(#0351C1 ,#FF0000 90%,#0351C1);
+	-fx-pref-height:50px;
+	-fx-pref-width:150px;
+	-fx-text-fill:white;
+}
+.username{
+	-fx-padding:10px;
+	-fx-text-fill:white ;
+	-fx-font-weight:bold;
+}
+.score{
+	-fx-font-size:15px;
+	-fx-text-fill:white ;
+	-fx-font-weight:bold;
+	
+}
+.scorepoints{
+	-fx-text-fill:red;
+	-fx-font-size:30px;
+	-fx-font-weight:bold;
+}
+.scorebox{
+	-fx-alignment:center ;
+	-fx-spacing:20px;
+}
+.dpane{
+	-fx-pref-height:200px;
+	-fx-border-color: white;
+	-fx-border-radius:10px;
+}
+.points{
+	-fx-border-color:white ;
+	-fx-pref-width:130px;
+	-fx-border-radius:10px;
+}
+.user{
+	-fx-border-color:white ;
+	-fx-pref-width:130px;
+	-fx-border-radius:10px;
+
+}
+.scramblepic{
+	-fx-border-color:white ;
+	-fx-background-image:url("scram.gif");
+	-fx-background-size:cover ;
+	-fx-pref-width:200px;
+}
+.dbox{
+	-fx-padding:20px;
+	
+}
+.btn{
+	-fx-text-fill:white;
+	-fx-border-insets:30px;
+	-fx-background-color:linear-gradient(#0351C1 ,#FF0000 90%,#0351C1);
+	-fx-pref-height:50px;
+	-fx-pref-width:150px;
+	
+}
+.bottom{
+	-fx-alignment:bottom-center ;
+	-fx-spacing:30px;
+	-fx-padding:50px;
+}
+
+.levelTwoAns{
+	-fx-min-width:80px;
+	-fx-min-height:50px;
+	-fx-border-radius:10px;
+	-fx-spacing:20px;
+	-fx-background-color:black;
+	-fx-focus-traversable:false ;
+	-fx-font-size:30px;
+	-fx-text-fill:white;
+	-fx-alignment:center ;
+	-fx-opacity:0.7;
+	-fx-background-radius:100%;
+}
+.levelOneAns{
+	-fx-min-width:80px;
+	-fx-min-height:50px;
+	-fx-border-radius:10px;
+	-fx-spacing:20px;
+	-fx-background-color:black;
+	-fx-cursor:null;
+	-fx-focus-traversable:false ;
+	-fx-font-size:30px;
+	-fx-text-fill:white;
+	-fx-alignment:center ;
+	-fx-opacity:0.7;
+	-fx-background-radius:100%;
+}
+	
+.levelThreeAns{
+	-fx-background-color:black;
+	-fx-min-width:80px;
+	-fx-min-height:50px;
+	-fx-border-radius:10px;
+	-fx-spacing:20px;
+	-fx-focus-traversable:false ;
+	-fx-font-size:30px;
+	-fx-text-fill:white;
+	-fx-alignment:center ;
+	-fx-opacity:0.7;
+	-fx-background-radius:100%;
+}
+.answerBox{
+	-fx-border-insets:20px;
+	-fx-padding:10px;
+	-fx-spacing:10px;
+}
+.level{
+	-fx-text-fill:white;
+}
+.root{
+	-fx-background-color:linear-gradient(blue,black) ;
+	-fx-opacity:0.9;
+}
+.boxOne{
+	-fx-alignment:bottom-center ;
+	-fx-spacing:10px;
+}
+.boxThree{
+	-fx-spacing:10px;
+	-fx-alignment:bottom-center ;
+}
+.boxTwo{
+	-fx-alignment:bottom-center ;
+	-fx-spacing:10px;
+}
+.levelOneBoxes{
+	-fx-font-size:30px;
+	-fx-background-color:whitesmoke ;
+	-fx-border-radius:10px;
+	-fx-cursor:move ;
+}
+.levelThreeBoxes{
+	-fx-font-size:20px;
+	-fx-min-width:50px;
+	-fx-min-height:50px;
+	-fx-background-color:whitesmoke ;
+	-fx-border-radius:10px;
+	-fx-cursor:move ;
+}
+.levelTwoBoxes{
+	-fx-font-size:25px;
+	-fx-background-color:whitesmoke ;
+	-fx-border-radius:10px;
+	-fx-cursor:move ;
+}
